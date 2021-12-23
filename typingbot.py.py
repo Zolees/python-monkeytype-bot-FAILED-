@@ -1,14 +1,15 @@
-from datetime import time
-
-from pygments.lexer import words
-from pywin.tools import browser
+import pyautogui
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
+from datetime import datetime, timedelta
+MY_CHROME_DRIVER_PATH = 'C:\Program Files\chromedriver.exe'
+url = "https://monkeytype.com/"
 
-url = "http://monkeytype.com/"
-with webdriver.Chrome() as driver:
-    driver.get(url)
-
-
+for word in words:
+ def keyboard.type(word.text)
+ def keyboard def Controller():
+    
+ 
 def Controller():
     pass
 
@@ -29,9 +30,9 @@ def controller():
     pass
 
 
-def given_word_count():
+def given_word_count(): 
     # time.sleep() allows the user some time to select the desired test mode on monkeytype.com
-    new_var = time.sleep(6)
+    new_var = time.sleep(10)
     new_var
     new_func()
 
@@ -88,22 +89,22 @@ def new_func1(words):
     return new_var
 
 
-def new_func4():
-    controller()
+def new_func4("controller"):pass
+    
+    "controller"(pass)
 
 
 def new_func4():
     new_var = new_func1(words)
 
 
-def new_func4() -> object:
-    new_func4()
+def new_func4() -> object:def
+def  new_func4(object)
 
 
 def new_func5():
-    new_func4()
+    new_func4() 
 
 
 def new_func5():
     new_func5(type_text)
-
